@@ -1,0 +1,55 @@
+body{
+    background-color:hsl(0, 100%, 100%);
+    background-image: url('bg1.jpg');
+    background-repeat: repeat-x;
+    background-position: center;
+   /* background-attachment: fixed;*/
+    background-attachment: scroll;
+    background-size: cover;
+    background-clip: border-box;/*auto,length,percentage,cover,contain,initial,inherit*/
+    background-origin: content-box;/*padding-box,content-box,border-box*/
+    height: auto;
+    width: 100%;
+    margin: 0px;
+}
+
+/*this is how to define an id elemrnt in html when styling in css*/
+#heading{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color:rgb(19, 18, 18);
+    text-align: center;
+    opacity: 0.5;
+   /* background-color: lightcoral;*/
+    margin-top: auto;
+}
+/*this is how to define a class element in html when styling in css*/
+.para{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    color:rgba(32, 10, 226, 0.5);
+    
+   /* background-color: lightblue;*/
+}
+/*styling the button*/
+#btn{
+    color: rgb(26, 219, 0);
+    
+   border-color:red blue pink yellow;/*border-color: red,blue,pink,yellow or you can be specific to one;*/
+   
+    border-style: solid;/*hidden,solid,dotted,dashed,double,groove,ridge,inset,outset,none,mixed, hidden*/
+    border-width: 25px 10px 4px 35px;/*25px top,10pxright,4px bottom,35px left*/
+    border-radius: 5px;
+  /*  margin-left: 600px;*/
+    margin: 25px 30px 100px 600px;/*25px top,30px right, 100px bottom,600px left*/
+    padding: 10px 10px 10px 10px;
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: thick;
+    outline-offset: 5px;
+/*using shorthand border property*/
+/*border: 5px solid red;*/
+}
+   
